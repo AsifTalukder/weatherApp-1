@@ -1,0 +1,41 @@
+h1, h2, h3,span{
+  margin: 0;
+}
+
+h1{
+  font-size: 16rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+h3{
+  font-size: 1.4rem;
+
+}
+
+span{
+  font-size: 5rem;
+}
+
+img{
+  width: 150px;
+}
+
+.degree{
+  display:grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.container{
+  max-width: 550px;
+  height: 100vh;
+  border: 1px solid skyblue;
+  margin: 0 auto;
+  display:grid;
+  grid-template-rows: 20% 80%;
+  text-align: center;
+}
